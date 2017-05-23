@@ -1,0 +1,320 @@
+[2017-05-22T12:06:25,890][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-05-22T12:06:26,718][INFO ][o.e.e.NodeEnvironment    ] [H2ICDcy] using [1] data paths, mounts [[Windows8_OS (C:)]], net usable_space [301.1gb], net total_space [424.7gb], spins? [unknown], types [NTFS]
+[2017-05-22T12:06:26,718][INFO ][o.e.e.NodeEnvironment    ] [H2ICDcy] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-05-22T12:06:27,562][INFO ][o.e.n.Node               ] [H2ICDcy] node name [H2ICDcy] derived from node ID; set [node.name] to override
+[2017-05-22T12:06:27,718][INFO ][o.e.n.Node               ] [H2ICDcy] version[5.0.0], pid[4092], build[253032b/2016-10-26T04:37:51.531Z], OS[Windows 8.1/6.3/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_101/25.101-b13]
+[2017-05-22T12:06:32,640][INFO ][o.e.p.PluginsService     ] [H2ICDcy] loaded module [aggs-matrix-stats]
+[2017-05-22T12:06:32,640][INFO ][o.e.p.PluginsService     ] [H2ICDcy] loaded module [ingest-common]
+[2017-05-22T12:06:32,640][INFO ][o.e.p.PluginsService     ] [H2ICDcy] loaded module [lang-expression]
+[2017-05-22T12:06:32,640][INFO ][o.e.p.PluginsService     ] [H2ICDcy] loaded module [lang-groovy]
+[2017-05-22T12:06:32,640][INFO ][o.e.p.PluginsService     ] [H2ICDcy] loaded module [lang-mustache]
+[2017-05-22T12:06:32,640][INFO ][o.e.p.PluginsService     ] [H2ICDcy] loaded module [lang-painless]
+[2017-05-22T12:06:32,640][INFO ][o.e.p.PluginsService     ] [H2ICDcy] loaded module [percolator]
+[2017-05-22T12:06:32,640][INFO ][o.e.p.PluginsService     ] [H2ICDcy] loaded module [reindex]
+[2017-05-22T12:06:32,640][INFO ][o.e.p.PluginsService     ] [H2ICDcy] loaded module [transport-netty3]
+[2017-05-22T12:06:32,640][INFO ][o.e.p.PluginsService     ] [H2ICDcy] loaded module [transport-netty4]
+[2017-05-22T12:06:32,640][INFO ][o.e.p.PluginsService     ] [H2ICDcy] no plugins loaded
+[2017-05-22T12:06:41,515][INFO ][o.e.n.Node               ] [H2ICDcy] initialized
+[2017-05-22T12:06:41,515][INFO ][o.e.n.Node               ] [H2ICDcy] starting ...
+[2017-05-22T12:06:42,874][INFO ][o.e.t.TransportService   ] [H2ICDcy] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2017-05-22T12:06:47,187][INFO ][o.e.c.s.ClusterService   ] [H2ICDcy] new_master {H2ICDcy}{H2ICDcy-Ri6TG_3mUWxi0g}{uUIYnu1pSN65rN8zbwzMeA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-05-22T12:06:47,984][INFO ][o.e.h.HttpServer         ] [H2ICDcy] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2017-05-22T12:06:47,984][INFO ][o.e.n.Node               ] [H2ICDcy] started
+[2017-05-22T12:06:48,187][INFO ][o.e.g.GatewayService     ] [H2ICDcy] recovered [2] indices into cluster_state
+[2017-05-22T12:07:04,343][INFO ][o.e.c.r.a.AllocationService] [H2ICDcy] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[testtwitter][1]] ...]).
+[2017-05-22T12:12:38,710][WARN ][o.e.m.j.JvmGcMonitorService] [H2ICDcy] [gc][341] overhead, spent [11.6s] collecting in the last [12.5s]
+[2017-05-22T12:15:12,227][INFO ][o.e.b.Bootstrap          ] running graceful exit on windows
+[2017-05-22T12:15:12,258][INFO ][o.e.n.Node               ] [H2ICDcy] stopping ...
+[2017-05-22T12:15:15,227][INFO ][o.e.n.Node               ] [H2ICDcy] stopped
+[2017-05-22T12:15:15,227][INFO ][o.e.n.Node               ] [H2ICDcy] closing ...
+[2017-05-22T12:15:15,352][INFO ][o.e.n.Node               ] [H2ICDcy] closed
+[2017-05-22T15:35:24,835][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-05-22T15:35:25,385][INFO ][o.e.e.NodeEnvironment    ] [H2ICDcy] using [1] data paths, mounts [[/ (/dev/sda6)]], net usable_space [72.1gb], net total_space [163.9gb], spins? [possibly], types [ext4]
+[2017-05-22T15:35:25,386][INFO ][o.e.e.NodeEnvironment    ] [H2ICDcy] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-05-22T15:35:25,577][INFO ][o.e.n.Node               ] [H2ICDcy] node name [H2ICDcy] derived from node ID; set [node.name] to override
+[2017-05-22T15:35:25,611][INFO ][o.e.n.Node               ] [H2ICDcy] version[5.0.0], pid[5687], build[253032b/2016-10-26T04:37:51.531Z], OS[Linux/4.4.0-64-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_121/25.121-b13]
+[2017-05-22T15:35:27,365][INFO ][o.e.p.PluginsService     ] [H2ICDcy] loaded module [aggs-matrix-stats]
+[2017-05-22T15:35:27,365][INFO ][o.e.p.PluginsService     ] [H2ICDcy] loaded module [ingest-common]
+[2017-05-22T15:35:27,365][INFO ][o.e.p.PluginsService     ] [H2ICDcy] loaded module [lang-expression]
+[2017-05-22T15:35:27,365][INFO ][o.e.p.PluginsService     ] [H2ICDcy] loaded module [lang-groovy]
+[2017-05-22T15:35:27,365][INFO ][o.e.p.PluginsService     ] [H2ICDcy] loaded module [lang-mustache]
+[2017-05-22T15:35:27,366][INFO ][o.e.p.PluginsService     ] [H2ICDcy] loaded module [lang-painless]
+[2017-05-22T15:35:27,366][INFO ][o.e.p.PluginsService     ] [H2ICDcy] loaded module [percolator]
+[2017-05-22T15:35:27,366][INFO ][o.e.p.PluginsService     ] [H2ICDcy] loaded module [reindex]
+[2017-05-22T15:35:27,366][INFO ][o.e.p.PluginsService     ] [H2ICDcy] loaded module [transport-netty3]
+[2017-05-22T15:35:27,366][INFO ][o.e.p.PluginsService     ] [H2ICDcy] loaded module [transport-netty4]
+[2017-05-22T15:35:27,367][INFO ][o.e.p.PluginsService     ] [H2ICDcy] no plugins loaded
+[2017-05-22T15:35:31,681][INFO ][o.e.n.Node               ] [H2ICDcy] initialized
+[2017-05-22T15:35:31,681][INFO ][o.e.n.Node               ] [H2ICDcy] starting ...
+[2017-05-22T15:35:31,975][INFO ][o.e.t.TransportService   ] [H2ICDcy] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2017-05-22T15:35:31,988][WARN ][o.e.b.BootstrapCheck     ] [H2ICDcy] max virtual memory areas vm.max_map_count [65530] likely too low, increase to at least [262144]
+[2017-05-22T15:35:35,079][INFO ][o.e.c.s.ClusterService   ] [H2ICDcy] new_master {H2ICDcy}{H2ICDcy-Ri6TG_3mUWxi0g}{_vL9NNrQQLek0JY9X1BVTQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-05-22T15:35:35,128][INFO ][o.e.h.HttpServer         ] [H2ICDcy] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2017-05-22T15:35:35,128][INFO ][o.e.n.Node               ] [H2ICDcy] started
+[2017-05-22T15:35:36,008][INFO ][o.e.g.GatewayService     ] [H2ICDcy] recovered [2] indices into cluster_state
+[2017-05-22T15:35:39,855][INFO ][o.e.c.r.a.AllocationService] [H2ICDcy] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[testtwitter][0]] ...]).
+[2017-05-22T16:34:05,169][INFO ][o.e.n.Node               ] [H2ICDcy] stopping ...
+[2017-05-22T16:34:09,993][ERROR][n.u.c.D.rejectedExecution] Failed to submit a listener notification task. Event loop shut down?
+java.util.concurrent.RejectedExecutionException: event executor terminated
+	at io.netty.util.concurrent.SingleThreadEventExecutor.reject(SingleThreadEventExecutor.java:836) ~[netty-common-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.offerTask(SingleThreadEventExecutor.java:342) ~[netty-common-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.addTask(SingleThreadEventExecutor.java:335) ~[netty-common-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.execute(SingleThreadEventExecutor.java:761) ~[netty-common-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.DefaultPromise.safeExecute(DefaultPromise.java:767) [netty-common-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:435) [netty-common-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.DefaultPromise.setFailure(DefaultPromise.java:120) [netty-common-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.DefaultChannelPromise.setFailure(DefaultChannelPromise.java:87) [netty-transport-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.safeExecute(AbstractChannelHandlerContext.java:1022) [netty-transport-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:835) [netty-transport-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:804) [netty-transport-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:841) [netty-transport-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1032) [netty-transport-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:296) [netty-transport-4.1.5.Final.jar:4.1.5.Final]
+	at org.elasticsearch.http.netty4.Netty4HttpChannel.sendResponse(Netty4HttpChannel.java:138) [transport-netty4-5.0.0.jar:5.0.0]
+	at org.elasticsearch.http.HttpServer$ResourceHandlingHttpChannel.sendResponse(HttpServer.java:184) [elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.rest.action.RestResponseListener.processResponse(RestResponseListener.java:37) [elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.rest.action.RestActionListener.onResponse(RestActionListener.java:47) [elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.action.support.TransportAction$1.onResponse(TransportAction.java:91) [elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.action.support.TransportAction$1.onResponse(TransportAction.java:87) [elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.action.support.TransportAction$ResponseFilterChain.proceed(TransportAction.java:224) [elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.action.ingest.IngestActionFilter.apply(IngestActionFilter.java:89) [elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.action.support.TransportAction$ResponseFilterChain.proceed(TransportAction.java:222) [elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.action.support.TransportAction$FilteredActionListener.onResponse(TransportAction.java:249) [elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.action.support.TransportAction$FilteredActionListener.onResponse(TransportAction.java:235) [elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.action.bulk.TransportBulkAction$2.finishHim(TransportBulkAction.java:387) [elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.action.bulk.TransportBulkAction$2.onFailure(TransportBulkAction.java:382) [elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.action.support.TransportAction$1.onFailure(TransportAction.java:97) [elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.action.support.TransportAction$FilteredActionListener.onFailure(TransportAction.java:254) [elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$ReroutePhase.finishAsFailed(TransportReplicationAction.java:776) [elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$ReroutePhase$1.handleException(TransportReplicationAction.java:729) [elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.transport.TransportService$ContextRestoreResponseHandler.handleException(TransportService.java:954) [elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.transport.TransportService$3.doRun(TransportService.java:230) [elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:504) [elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-5.0.0.jar:5.0.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_121]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+[2017-05-22T16:34:08,009][ERROR][n.u.c.D.rejectedExecution] Failed to submit a listener notification task. Event loop shut down?
+java.util.concurrent.RejectedExecutionException: event executor terminated
+	at io.netty.util.concurrent.SingleThreadEventExecutor.reject(SingleThreadEventExecutor.java:836) ~[?:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.offerTask(SingleThreadEventExecutor.java:342) ~[?:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.addTask(SingleThreadEventExecutor.java:335) ~[?:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.execute(SingleThreadEventExecutor.java:761) ~[?:?]
+	at io.netty.util.concurrent.DefaultPromise.safeExecute(DefaultPromise.java:767) ~[?:?]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:435) ~[?:?]
+	at io.netty.util.concurrent.DefaultPromise.setFailure(DefaultPromise.java:120) ~[?:?]
+	at io.netty.channel.DefaultChannelPromise.setFailure(DefaultChannelPromise.java:87) ~[?:?]
+	at io.netty.channel.AbstractChannelHandlerContext.safeExecute(AbstractChannelHandlerContext.java:1022) ~[?:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:835) ~[?:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:804) ~[?:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:841) ~[?:?]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1032) ~[?:?]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:296) ~[?:?]
+	at org.elasticsearch.http.netty4.Netty4HttpChannel.sendResponse(Netty4HttpChannel.java:138) ~[?:?]
+	at org.elasticsearch.http.HttpServer$ResourceHandlingHttpChannel.sendResponse(HttpServer.java:184) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.rest.action.RestResponseListener.processResponse(RestResponseListener.java:37) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.rest.action.RestActionListener.onResponse(RestActionListener.java:47) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.action.support.TransportAction$1.onResponse(TransportAction.java:91) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.action.support.TransportAction$1.onResponse(TransportAction.java:87) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.action.support.TransportAction$ResponseFilterChain.proceed(TransportAction.java:224) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.action.ingest.IngestActionFilter.apply(IngestActionFilter.java:89) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.action.support.TransportAction$ResponseFilterChain.proceed(TransportAction.java:222) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.action.support.TransportAction$FilteredActionListener.onResponse(TransportAction.java:249) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.action.support.TransportAction$FilteredActionListener.onResponse(TransportAction.java:235) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.action.bulk.TransportBulkAction$2.finishHim(TransportBulkAction.java:387) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.action.bulk.TransportBulkAction$2.onResponse(TransportBulkAction.java:358) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.action.bulk.TransportBulkAction$2.onResponse(TransportBulkAction.java:347) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.action.support.TransportAction$1.onResponse(TransportAction.java:91) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.action.support.TransportAction$1.onResponse(TransportAction.java:87) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.action.support.TransportAction$ResponseFilterChain.proceed(TransportAction.java:224) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.action.ingest.IngestActionFilter.apply(IngestActionFilter.java:89) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.action.support.TransportAction$ResponseFilterChain.proceed(TransportAction.java:222) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.action.support.TransportAction$FilteredActionListener.onResponse(TransportAction.java:249) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.action.support.TransportAction$FilteredActionListener.onResponse(TransportAction.java:235) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$ReroutePhase.finishOnSuccess(TransportReplicationAction.java:804) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$ReroutePhase$1.handleResponse(TransportReplicationAction.java:711) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$ReroutePhase$1.handleResponse(TransportReplicationAction.java:697) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.transport.TransportService$ContextRestoreResponseHandler.handleResponse(TransportService.java:948) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.transport.TransportService$DirectResponseChannel.processResponse(TransportService.java:1019) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.transport.TransportService$DirectResponseChannel.sendResponse(TransportService.java:1003) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.transport.TransportService$DirectResponseChannel.sendResponse(TransportService.java:993) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.transport.DelegatingTransportChannel.sendResponse(DelegatingTransportChannel.java:58) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.transport.RequestHandlerRegistry$TransportChannelWrapper.sendResponse(RequestHandlerRegistry.java:111) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$AsyncPrimaryAction$3.onResponse(TransportReplicationAction.java:345) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$AsyncPrimaryAction$3.onResponse(TransportReplicationAction.java:339) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryResult.respond(TransportReplicationAction.java:393) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.action.support.replication.TransportWriteAction$WritePrimaryResult.respondIfPossible(TransportWriteAction.java:149) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.action.support.replication.TransportWriteAction$WritePrimaryResult.onSuccess(TransportWriteAction.java:165) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.action.support.replication.TransportWriteAction$AsyncAfterWriteAction.maybeFinish(TransportWriteAction.java:287) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.action.support.replication.TransportWriteAction$AsyncAfterWriteAction.lambda$run$1(TransportWriteAction.java:312) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.common.util.concurrent.AsyncIOProcessor.processList(AsyncIOProcessor.java:117) [elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.common.util.concurrent.AsyncIOProcessor.drainAndProcess(AsyncIOProcessor.java:99) [elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.common.util.concurrent.AsyncIOProcessor.put(AsyncIOProcessor.java:89) [elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.index.shard.IndexShard.sync(IndexShard.java:1701) [elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.action.support.replication.TransportWriteAction$AsyncAfterWriteAction.run(TransportWriteAction.java:310) [elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.action.support.replication.TransportWriteAction$WritePrimaryResult.<init>(TransportWriteAction.java:134) [elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.action.support.replication.TransportWriteAction.shardOperationOnPrimary(TransportWriteAction.java:79) [elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.action.support.replication.TransportWriteAction.shardOperationOnPrimary(TransportWriteAction.java:50) [elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryShardReference.perform(TransportReplicationAction.java:902) [elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryShardReference.perform(TransportReplicationAction.java:872) [elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.action.support.replication.ReplicationOperation.execute(ReplicationOperation.java:113) [elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$AsyncPrimaryAction.onResponse(TransportReplicationAction.java:319) [elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$AsyncPrimaryAction.onResponse(TransportReplicationAction.java:254) [elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$1.onResponse(TransportReplicationAction.java:838) [elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$1.onResponse(TransportReplicationAction.java:835) [elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.index.shard.IndexShardOperationsLock.acquire(IndexShardOperationsLock.java:142) [elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.index.shard.IndexShard.acquirePrimaryOperationLock(IndexShard.java:1651) [elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction.acquirePrimaryShardReference(TransportReplicationAction.java:847) [elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$AsyncPrimaryAction.doRun(TransportReplicationAction.java:271) [elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:250) [elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:242) [elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) [elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.transport.TransportService$6.doRun(TransportService.java:548) [elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:504) [elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-5.0.0.jar:5.0.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_121]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+[2017-05-22T16:34:10,586][WARN ][o.e.t.TransportService   ] [H2ICDcy] Transport response handler not found of id [5070]
+[2017-05-22T16:34:30,460][INFO ][o.e.n.Node               ] [H2ICDcy] stopped
+[2017-05-22T16:34:30,461][INFO ][o.e.n.Node               ] [H2ICDcy] closing ...
+[2017-05-22T16:34:30,574][INFO ][o.e.n.Node               ] [H2ICDcy] closed
+[2017-05-22T17:34:15,470][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-05-22T17:34:15,752][INFO ][o.e.e.NodeEnvironment    ] [H2ICDcy] using [1] data paths, mounts [[/ (/dev/sda6)]], net usable_space [71.3gb], net total_space [163.9gb], spins? [possibly], types [ext4]
+[2017-05-22T17:34:15,753][INFO ][o.e.e.NodeEnvironment    ] [H2ICDcy] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-05-22T17:34:15,921][INFO ][o.e.n.Node               ] [H2ICDcy] node name [H2ICDcy] derived from node ID; set [node.name] to override
+[2017-05-22T17:34:15,924][INFO ][o.e.n.Node               ] [H2ICDcy] version[5.0.0], pid[3924], build[253032b/2016-10-26T04:37:51.531Z], OS[Linux/4.4.0-64-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_121/25.121-b13]
+[2017-05-22T17:34:17,141][INFO ][o.e.p.PluginsService     ] [H2ICDcy] loaded module [aggs-matrix-stats]
+[2017-05-22T17:34:17,142][INFO ][o.e.p.PluginsService     ] [H2ICDcy] loaded module [ingest-common]
+[2017-05-22T17:34:17,142][INFO ][o.e.p.PluginsService     ] [H2ICDcy] loaded module [lang-expression]
+[2017-05-22T17:34:17,142][INFO ][o.e.p.PluginsService     ] [H2ICDcy] loaded module [lang-groovy]
+[2017-05-22T17:34:17,142][INFO ][o.e.p.PluginsService     ] [H2ICDcy] loaded module [lang-mustache]
+[2017-05-22T17:34:17,142][INFO ][o.e.p.PluginsService     ] [H2ICDcy] loaded module [lang-painless]
+[2017-05-22T17:34:17,143][INFO ][o.e.p.PluginsService     ] [H2ICDcy] loaded module [percolator]
+[2017-05-22T17:34:17,143][INFO ][o.e.p.PluginsService     ] [H2ICDcy] loaded module [reindex]
+[2017-05-22T17:34:17,143][INFO ][o.e.p.PluginsService     ] [H2ICDcy] loaded module [transport-netty3]
+[2017-05-22T17:34:17,143][INFO ][o.e.p.PluginsService     ] [H2ICDcy] loaded module [transport-netty4]
+[2017-05-22T17:34:17,144][INFO ][o.e.p.PluginsService     ] [H2ICDcy] no plugins loaded
+[2017-05-22T17:34:20,031][INFO ][o.e.n.Node               ] [H2ICDcy] initialized
+[2017-05-22T17:34:20,032][INFO ][o.e.n.Node               ] [H2ICDcy] starting ...
+[2017-05-22T17:34:20,292][INFO ][o.e.t.TransportService   ] [H2ICDcy] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2017-05-22T17:34:20,306][WARN ][o.e.b.BootstrapCheck     ] [H2ICDcy] max virtual memory areas vm.max_map_count [65530] likely too low, increase to at least [262144]
+[2017-05-22T17:34:23,441][INFO ][o.e.c.s.ClusterService   ] [H2ICDcy] new_master {H2ICDcy}{H2ICDcy-Ri6TG_3mUWxi0g}{re5G8oIMTmSLML6CA17RBg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-05-22T17:34:23,483][INFO ][o.e.h.HttpServer         ] [H2ICDcy] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2017-05-22T17:34:23,483][INFO ][o.e.n.Node               ] [H2ICDcy] started
+[2017-05-22T17:34:24,342][INFO ][o.e.g.GatewayService     ] [H2ICDcy] recovered [2] indices into cluster_state
+[2017-05-22T17:34:28,124][INFO ][o.e.c.r.a.AllocationService] [H2ICDcy] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[testtwitter][3], [testtwitter][1]] ...]).
+[2017-05-22T20:07:26,311][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-05-22T20:07:28,327][INFO ][o.e.e.NodeEnvironment    ] [H2ICDcy] using [1] data paths, mounts [[Windows8_OS (C:)]], net usable_space [296gb], net total_space [424.7gb], spins? [unknown], types [NTFS]
+[2017-05-22T20:07:28,328][INFO ][o.e.e.NodeEnvironment    ] [H2ICDcy] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-05-22T20:07:29,523][INFO ][o.e.n.Node               ] [H2ICDcy] node name [H2ICDcy] derived from node ID; set [node.name] to override
+[2017-05-22T20:07:29,606][INFO ][o.e.n.Node               ] [H2ICDcy] version[5.0.0], pid[4252], build[253032b/2016-10-26T04:37:51.531Z], OS[Windows 8.1/6.3/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_101/25.101-b13]
+[2017-05-22T20:07:47,682][INFO ][o.e.p.PluginsService     ] [H2ICDcy] loaded module [aggs-matrix-stats]
+[2017-05-22T20:07:47,683][INFO ][o.e.p.PluginsService     ] [H2ICDcy] loaded module [ingest-common]
+[2017-05-22T20:07:47,683][INFO ][o.e.p.PluginsService     ] [H2ICDcy] loaded module [lang-expression]
+[2017-05-22T20:07:47,684][INFO ][o.e.p.PluginsService     ] [H2ICDcy] loaded module [lang-groovy]
+[2017-05-22T20:07:47,684][INFO ][o.e.p.PluginsService     ] [H2ICDcy] loaded module [lang-mustache]
+[2017-05-22T20:07:47,685][INFO ][o.e.p.PluginsService     ] [H2ICDcy] loaded module [lang-painless]
+[2017-05-22T20:07:47,685][INFO ][o.e.p.PluginsService     ] [H2ICDcy] loaded module [percolator]
+[2017-05-22T20:07:47,686][INFO ][o.e.p.PluginsService     ] [H2ICDcy] loaded module [reindex]
+[2017-05-22T20:07:47,686][INFO ][o.e.p.PluginsService     ] [H2ICDcy] loaded module [transport-netty3]
+[2017-05-22T20:07:47,687][INFO ][o.e.p.PluginsService     ] [H2ICDcy] loaded module [transport-netty4]
+[2017-05-22T20:07:47,688][INFO ][o.e.p.PluginsService     ] [H2ICDcy] no plugins loaded
+[2017-05-22T20:08:51,184][INFO ][o.e.n.Node               ] [H2ICDcy] initialized
+[2017-05-22T20:08:51,184][INFO ][o.e.n.Node               ] [H2ICDcy] starting ...
+[2017-05-22T20:08:57,774][INFO ][o.e.t.TransportService   ] [H2ICDcy] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2017-05-22T20:09:02,060][INFO ][o.e.c.s.ClusterService   ] [H2ICDcy] new_master {H2ICDcy}{H2ICDcy-Ri6TG_3mUWxi0g}{kJKpY1xsQFmb29FINKay6w}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-05-22T20:09:03,116][INFO ][o.e.h.HttpServer         ] [H2ICDcy] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2017-05-22T20:09:03,116][INFO ][o.e.n.Node               ] [H2ICDcy] started
+[2017-05-22T20:09:04,863][INFO ][o.e.g.GatewayService     ] [H2ICDcy] recovered [2] indices into cluster_state
+[2017-05-22T20:09:12,212][INFO ][o.e.c.r.a.AllocationService] [H2ICDcy] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[testtwitter][4]] ...]).
+[2017-05-22T20:10:15,488][DEBUG][o.e.a.a.i.t.p.TransportPutIndexTemplateAction] [H2ICDcy] failed to put template [logstash]
+org.elasticsearch.index.mapper.MapperParsingException: Failed to parse mapping [_default_]: The [string] type is removed in 5.0 and automatic upgrade failed because parameters [properties] are not supported for automatic upgrades. You should now use either a [text] or [keyword] field instead for field [coordinates]
+	at org.elasticsearch.index.mapper.MapperService.merge(MapperService.java:237) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.cluster.metadata.MetaDataIndexTemplateService.validateAndAddTemplate(MetaDataIndexTemplateService.java:228) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.cluster.metadata.MetaDataIndexTemplateService.access$200(MetaDataIndexTemplateService.java:60) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.cluster.metadata.MetaDataIndexTemplateService$2.execute(MetaDataIndexTemplateService.java:170) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.cluster.ClusterStateUpdateTask.execute(ClusterStateUpdateTask.java:45) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.cluster.service.ClusterService.runTasksForExecutor(ClusterService.java:555) [elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.cluster.service.ClusterService$UpdateTask.run(ClusterService.java:894) [elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:444) [elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:237) [elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:200) [elasticsearch-5.0.0.jar:5.0.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_101]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_101]
+Caused by: java.lang.IllegalArgumentException: The [string] type is removed in 5.0 and automatic upgrade failed because parameters [properties] are not supported for automatic upgrades. You should now use either a [text] or [keyword] field instead for field [coordinates]
+	at org.elasticsearch.index.mapper.StringFieldMapper$TypeParser.parse(StringFieldMapper.java:269) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.index.mapper.ObjectMapper$TypeParser.parseProperties(ObjectMapper.java:281) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.index.mapper.ObjectMapper$TypeParser.parseObjectOrDocumentTypeProperties(ObjectMapper.java:203) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.index.mapper.RootObjectMapper$TypeParser.parse(RootObjectMapper.java:102) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.parse(DocumentMapperParser.java:110) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.parse(DocumentMapperParser.java:91) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.parse(DocumentMapperParser.java:77) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.index.mapper.MapperService.merge(MapperService.java:257) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.index.mapper.MapperService.merge(MapperService.java:235) ~[elasticsearch-5.0.0.jar:5.0.0]
+	... 12 more
+[2017-05-22T20:30:23,525][INFO ][o.e.b.Bootstrap          ] running graceful exit on windows
+[2017-05-22T20:30:23,559][INFO ][o.e.n.Node               ] [H2ICDcy] stopping ...
+[2017-05-22T20:30:25,093][INFO ][o.e.n.Node               ] [H2ICDcy] stopped
+[2017-05-22T20:30:25,113][INFO ][o.e.n.Node               ] [H2ICDcy] closing ...
+[2017-05-22T20:30:25,425][INFO ][o.e.n.Node               ] [H2ICDcy] closed
+[2017-05-22T21:13:26,386][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-05-22T21:13:28,078][INFO ][o.e.e.NodeEnvironment    ] [H2ICDcy] using [1] data paths, mounts [[Windows8_OS (C:)]], net usable_space [296gb], net total_space [424.7gb], spins? [unknown], types [NTFS]
+[2017-05-22T21:13:28,080][INFO ][o.e.e.NodeEnvironment    ] [H2ICDcy] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-05-22T21:13:28,918][INFO ][o.e.n.Node               ] [H2ICDcy] node name [H2ICDcy] derived from node ID; set [node.name] to override
+[2017-05-22T21:13:28,990][INFO ][o.e.n.Node               ] [H2ICDcy] version[5.0.0], pid[5544], build[253032b/2016-10-26T04:37:51.531Z], OS[Windows 8.1/6.3/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_101/25.101-b13]
+[2017-05-22T21:13:44,463][INFO ][o.e.p.PluginsService     ] [H2ICDcy] loaded module [aggs-matrix-stats]
+[2017-05-22T21:13:44,463][INFO ][o.e.p.PluginsService     ] [H2ICDcy] loaded module [ingest-common]
+[2017-05-22T21:13:44,464][INFO ][o.e.p.PluginsService     ] [H2ICDcy] loaded module [lang-expression]
+[2017-05-22T21:13:44,464][INFO ][o.e.p.PluginsService     ] [H2ICDcy] loaded module [lang-groovy]
+[2017-05-22T21:13:44,464][INFO ][o.e.p.PluginsService     ] [H2ICDcy] loaded module [lang-mustache]
+[2017-05-22T21:13:44,464][INFO ][o.e.p.PluginsService     ] [H2ICDcy] loaded module [lang-painless]
+[2017-05-22T21:13:44,464][INFO ][o.e.p.PluginsService     ] [H2ICDcy] loaded module [percolator]
+[2017-05-22T21:13:44,464][INFO ][o.e.p.PluginsService     ] [H2ICDcy] loaded module [reindex]
+[2017-05-22T21:13:44,464][INFO ][o.e.p.PluginsService     ] [H2ICDcy] loaded module [transport-netty3]
+[2017-05-22T21:13:44,465][INFO ][o.e.p.PluginsService     ] [H2ICDcy] loaded module [transport-netty4]
+[2017-05-22T21:13:44,465][INFO ][o.e.p.PluginsService     ] [H2ICDcy] no plugins loaded
+[2017-05-22T21:15:09,929][INFO ][o.e.n.Node               ] [H2ICDcy] initialized
+[2017-05-22T21:15:09,930][INFO ][o.e.n.Node               ] [H2ICDcy] starting ...
+[2017-05-22T21:15:18,707][INFO ][o.e.t.TransportService   ] [H2ICDcy] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2017-05-22T21:15:24,906][INFO ][o.e.c.s.ClusterService   ] [H2ICDcy] new_master {H2ICDcy}{H2ICDcy-Ri6TG_3mUWxi0g}{Jw9pkMcwQoqs95VYVRPAvw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-05-22T21:15:26,566][INFO ][o.e.h.HttpServer         ] [H2ICDcy] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2017-05-22T21:15:26,566][INFO ][o.e.n.Node               ] [H2ICDcy] started
+[2017-05-22T21:15:30,891][INFO ][o.e.g.GatewayService     ] [H2ICDcy] recovered [2] indices into cluster_state
+[2017-05-22T21:15:45,860][INFO ][o.e.c.r.a.AllocationService] [H2ICDcy] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[testtwitter][0]] ...]).
+[2017-05-22T21:17:29,977][DEBUG][o.e.a.a.i.t.p.TransportPutIndexTemplateAction] [H2ICDcy] failed to put template [logstash]
+org.elasticsearch.index.mapper.MapperParsingException: Failed to parse mapping [_default_]: The [string] type is removed in 5.0 and automatic upgrade failed because parameters [properties] are not supported for automatic upgrades. You should now use either a [text] or [keyword] field instead for field [coordinates]
+	at org.elasticsearch.index.mapper.MapperService.merge(MapperService.java:237) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.cluster.metadata.MetaDataIndexTemplateService.validateAndAddTemplate(MetaDataIndexTemplateService.java:228) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.cluster.metadata.MetaDataIndexTemplateService.access$200(MetaDataIndexTemplateService.java:60) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.cluster.metadata.MetaDataIndexTemplateService$2.execute(MetaDataIndexTemplateService.java:170) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.cluster.ClusterStateUpdateTask.execute(ClusterStateUpdateTask.java:45) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.cluster.service.ClusterService.runTasksForExecutor(ClusterService.java:555) [elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.cluster.service.ClusterService$UpdateTask.run(ClusterService.java:894) [elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:444) [elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:237) [elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:200) [elasticsearch-5.0.0.jar:5.0.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_101]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_101]
+Caused by: java.lang.IllegalArgumentException: The [string] type is removed in 5.0 and automatic upgrade failed because parameters [properties] are not supported for automatic upgrades. You should now use either a [text] or [keyword] field instead for field [coordinates]
+	at org.elasticsearch.index.mapper.StringFieldMapper$TypeParser.parse(StringFieldMapper.java:269) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.index.mapper.ObjectMapper$TypeParser.parseProperties(ObjectMapper.java:281) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.index.mapper.ObjectMapper$TypeParser.parseObjectOrDocumentTypeProperties(ObjectMapper.java:203) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.index.mapper.RootObjectMapper$TypeParser.parse(RootObjectMapper.java:102) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.parse(DocumentMapperParser.java:110) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.parse(DocumentMapperParser.java:91) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.parse(DocumentMapperParser.java:77) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.index.mapper.MapperService.merge(MapperService.java:257) ~[elasticsearch-5.0.0.jar:5.0.0]
+	at org.elasticsearch.index.mapper.MapperService.merge(MapperService.java:235) ~[elasticsearch-5.0.0.jar:5.0.0]
+	... 12 more
+[2017-05-22T21:17:54,320][INFO ][o.e.m.j.JvmGcMonitorService] [H2ICDcy] [gc][164] overhead, spent [297ms] collecting in the last [1s]
+[2017-05-22T21:23:29,493][INFO ][o.e.m.j.JvmGcMonitorService] [H2ICDcy] [gc][498] overhead, spent [478ms] collecting in the last [1.3s]
+[2017-05-22T21:32:54,199][INFO ][o.e.m.j.JvmGcMonitorService] [H2ICDcy] [gc][1060] overhead, spent [457ms] collecting in the last [1s]
+[2017-05-22T21:33:19,198][INFO ][o.e.b.Bootstrap          ] running graceful exit on windows
+[2017-05-22T21:33:19,200][INFO ][o.e.n.Node               ] [H2ICDcy] stopping ...
+[2017-05-22T21:33:22,874][INFO ][o.e.n.Node               ] [H2ICDcy] stopped
+[2017-05-22T21:33:22,875][INFO ][o.e.n.Node               ] [H2ICDcy] closing ...
+[2017-05-22T21:33:22,975][INFO ][o.e.n.Node               ] [H2ICDcy] closed
